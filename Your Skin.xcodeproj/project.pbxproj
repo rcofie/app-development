@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2F6AB0E7290EBA6200E1185E /* Your_SkinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB0E6290EBA6200E1185E /* Your_SkinApp.swift */; };
-		2F6AB0E9290EBA6200E1185E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB0E8290EBA6200E1185E /* ContentView.swift */; };
+		2F6AB0E9290EBA6200E1185E /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB0E8290EBA6200E1185E /* ProgressView.swift */; };
 		2F6AB0EB290EBA6400E1185E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6AB0EA290EBA6400E1185E /* Assets.xcassets */; };
 		2F6AB0EF290EBA6400E1185E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F6AB0EE290EBA6400E1185E /* Preview Assets.xcassets */; };
 		2F6AB0F9290EBA6400E1185E /* Your_SkinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB0F8290EBA6400E1185E /* Your_SkinTests.swift */; };
 		2F6AB103290EBA6400E1185E /* Your_SkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB102290EBA6400E1185E /* Your_SkinUITests.swift */; };
 		2F6AB105290EBA6400E1185E /* Your_SkinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB104290EBA6400E1185E /* Your_SkinUITestsLaunchTests.swift */; };
+		2F6AB112290EC26700E1185E /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB111290EC26700E1185E /* LaunchScreenView.swift */; };
+		2F6AB114290EFA9400E1185E /* RobotoMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F6AB113290EFA9400E1185E /* RobotoMono-Regular.ttf */; };
+		2F6AB1172910413100E1185E /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6AB1162910413100E1185E /* DashboardView.swift */; };
+		2FC89C9129142D2A00AE7A8A /* RobotoMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FC89C9029142D2A00AE7A8A /* RobotoMono-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		2F6AB0E3290EBA6200E1185E /* Your Skin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Your Skin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6AB0E6290EBA6200E1185E /* Your_SkinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Your_SkinApp.swift; sourceTree = "<group>"; };
-		2F6AB0E8290EBA6200E1185E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F6AB0E8290EBA6200E1185E /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		2F6AB0EA290EBA6400E1185E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F6AB0EC290EBA6400E1185E /* Your_Skin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Your_Skin.entitlements; sourceTree = "<group>"; };
 		2F6AB0EE290EBA6400E1185E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,11 @@
 		2F6AB0FE290EBA6400E1185E /* Your SkinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Your SkinUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F6AB102290EBA6400E1185E /* Your_SkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Your_SkinUITests.swift; sourceTree = "<group>"; };
 		2F6AB104290EBA6400E1185E /* Your_SkinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Your_SkinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F6AB111290EC26700E1185E /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		2F6AB113290EFA9400E1185E /* RobotoMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoMono-Regular.ttf"; path = "../../../Downloads/Roboto_Mono/static/RobotoMono-Regular.ttf"; sourceTree = "<group>"; };
+		2F6AB115290EFFA800E1185E /* Your-Skin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Your-Skin-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2F6AB1162910413100E1185E /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		2FC89C9029142D2A00AE7A8A /* RobotoMono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RobotoMono-SemiBold.ttf"; path = "../../Roboto_Mono/static/RobotoMono-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +104,13 @@
 		2F6AB0E5290EBA6200E1185E /* Your Skin */ = {
 			isa = PBXGroup;
 			children = (
+				2F6AB115290EFFA800E1185E /* Your-Skin-Info.plist */,
 				2F6AB0E6290EBA6200E1185E /* Your_SkinApp.swift */,
-				2F6AB0E8290EBA6200E1185E /* ContentView.swift */,
+				2F6AB0E8290EBA6200E1185E /* ProgressView.swift */,
+				2F6AB111290EC26700E1185E /* LaunchScreenView.swift */,
+				2F6AB1162910413100E1185E /* DashboardView.swift */,
+				2F6AB113290EFA9400E1185E /* RobotoMono-Regular.ttf */,
+				2FC89C9029142D2A00AE7A8A /* RobotoMono-SemiBold.ttf */,
 				2F6AB0EA290EBA6400E1185E /* Assets.xcassets */,
 				2F6AB0EC290EBA6400E1185E /* Your_Skin.entitlements */,
 				2F6AB0ED290EBA6400E1185E /* Preview Content */,
@@ -234,7 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F6AB0EF290EBA6400E1185E /* Preview Assets.xcassets in Resources */,
+				2FC89C9129142D2A00AE7A8A /* RobotoMono-SemiBold.ttf in Resources */,
 				2F6AB0EB290EBA6400E1185E /* Assets.xcassets in Resources */,
+				2F6AB114290EFA9400E1185E /* RobotoMono-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F6AB0E9290EBA6200E1185E /* ContentView.swift in Sources */,
+				2F6AB0E9290EBA6200E1185E /* ProgressView.swift in Sources */,
+				2F6AB1172910413100E1185E /* DashboardView.swift in Sources */,
 				2F6AB0E7290EBA6200E1185E /* Your_SkinApp.swift in Sources */,
+				2F6AB112290EC26700E1185E /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +435,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Your Skin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Your-Skin-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +472,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Your Skin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Your-Skin-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

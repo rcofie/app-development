@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Your_SkinApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchScreenView()
         }
     }
 }
+
+
